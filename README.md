@@ -25,7 +25,8 @@ To install s3fs and setup the configuration for mounting with default parameters
 Note, its recomended to NOT store the access key or secret key in your puppet manifest.
 Its a good practice to use [hiera](https://docs.puppetlabs.com/hiera/1/) and [eyaml](https://github.com/TomPoulton/hiera-eyaml).
 
-```class {'amazon_s3':
+```
+   class {'amazon_s3':
     aws_access_key    => 'ACCESS_KEY',
     secret_access_key => 'SECRET_KEY',
    }
@@ -33,7 +34,8 @@ Its a good practice to use [hiera](https://docs.puppetlabs.com/hiera/1/) and [ey
 
 Creates a mount with default parameters.
 
-```amazon_s3::s3_mount{'s3_mount':
+```
+   amazon_s3::s3_mount{'s3_mount':
     mount_point => '/mnt/s3_mount',
     require     => Class['amazon_s3'],
    }
