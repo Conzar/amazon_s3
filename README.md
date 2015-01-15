@@ -13,13 +13,13 @@ S3 buckets.  See: [s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse).
 
 ## Setup
 
-### Requirements for Amazon S3
+### Requirements for amazon_s3
 
 * You will need your [Amazon Access keys](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html).
 * You will also need to have already created an S3 Bucket.
 * Make sure the IAM user has [access](http://docs.aws.amazon.com/AmazonS3/latest/dev/using-iam-policies.html) to your S3 bucket.
 
-### Beginning with amazon_ses
+### Beginning with amazon_s3
 
 To install s3fs and setup the configuration for mounting with default parameters.
 Note, its recomended to NOT store the access key or secret key in your puppet manifest.
