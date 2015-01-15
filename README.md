@@ -4,7 +4,7 @@
 
 ## Overview
 
-Enables mounting of s3 buckets.
+Manages mounting s3 buckets.
 
 ## Module Description
 
