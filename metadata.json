@@ -8,17 +8,12 @@
   "project_page": "https://github.com/Conzar/amazon_s3",
   "issues_url": "https://github.com/Conzar/amazon_s3/issues",
   "operatingsystem_support": [
-    {
-      "operatingsystem": "Ubuntu",
-      "operatingsystemrelease": [
-        "12.04",
-        "14.04"
-      ]
-    }
+    { "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "12.04", "14.04" ] }
   ],
   "dependencies": [
     {
-    	"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"
+    	"name":"puppetlabs-stdlib","version_requirement":">= 4.0.0"
     },
     {
       "name": "puppetlabs/vcsrepo",
