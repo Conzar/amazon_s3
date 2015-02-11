@@ -1,5 +1,6 @@
 # amazon_s3
 
+[![Puppet Forge](http://img.shields.io/puppetforge/v/conzar/amazon_s3.svg)](https://forge.puppetlabs.com/conzar/amazon_s3)
 [![Build Status](https://travis-ci.org/Conzar/amazon_s3.svg?branch=master)](https://travis-ci.org/Conzar/amazon_s3)
 
 ## Overview
