@@ -69,13 +69,21 @@ Defines an S3 automount (in fstab).  Also attempts to mount the bucket once defi
 
 **Parameters within `amazon_s3::s3_mount`:**
 
-
-#####`s3_bucket_name`
-The name of the S3 bucket to mount.  By default, it uses the title.
+#####`ensure`
+Controls the mount accepting the same values as the 'mount' type.
+Defaults to 'mounted'
 
 #####`mount_point`
 The path to mount the bucket.  This module ensures the directory exists; however,
 it does not ensure that the parent(s) to the path exists.  
+
+#####`options`
+Options for the mount.
+Defaults to 'nonempty,allow_other'
+
+#####`s3_bucket_name`
+The name of the S3 bucket to mount.  By default, it uses the title.
+
 
 ## Limitations
 

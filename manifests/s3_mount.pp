@@ -20,7 +20,7 @@
 define amazon_s3::s3_mount(
   $ensure = 'mounted',
   $mount_point,
-  $options = 'allow_other',
+  $options = 'nonempty,allow_other',
   $s3_bucket_name = $title,
 ){
   file{$mount_point:
@@ -35,6 +35,7 @@ define amazon_s3::s3_mount(
     device  => "s3fs#${s3_bucket_name}",
     fstype  => 'fuse',
     options => $options,
+    remounts => false,
     require => File[$mount_point],
   }
 }
