@@ -1,3 +1,10 @@
+## 2015-02-19 Release 0.1.2
+### Summary
+License File
+
+### Changes
+ - Added license file.
+
 ## 2015-02-11 Release 0.1.1
 ### Summary
 Updated options
