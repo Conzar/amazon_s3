@@ -1,6 +1,6 @@
 {
   "name": "conzar-amazon_s3",
-  "version": "99.99.9999999999",
+  "version": "99.99.99",
   "author": "Michael Speth",
   "summary": "Manages mounting S3 buckets",
   "license": "GPL-3.0+",
